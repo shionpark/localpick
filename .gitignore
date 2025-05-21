@@ -19,3 +19,5 @@ out/
 npm-debug.log*
 pnpm-debug.log*
 turbo.log
+
+.vscode/*
