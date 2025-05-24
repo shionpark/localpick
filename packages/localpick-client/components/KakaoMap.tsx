@@ -2,7 +2,7 @@
 
 import Script from "next/script";
 import { useKakaoMapLoader } from "../hooks/useKakaoMapLoader";
-import { KAKAO_API_BASE_URL } from "../constants/urls";
+import { KAKAO_API_BASE_URL } from "@/constants/urls";
 
 export default function KakaoMap() {
   const { mapContainer, onLoadKakaoAPI, onLoadFail } = useKakaoMapLoader();
